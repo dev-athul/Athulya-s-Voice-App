@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice RecogSynthesis</title>
+    <script src="talk.js" defer></script>
+    <style>
+        *{
+            background-color: rgb(11, 11, 24);
+            color: blanchedalmond;
+        }
+        .text{
+            font-size: 2em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70vh;
+        }
+        button{
+            background-color: rgb(1, 11, 19);
+            
+            border-radius: 10px;
+            outline: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: aliceblue;
+            width: 25%;
+            padding: 5%;
+            font-size: 1.4em;
+            position: absolute;
+            bottom: 10%;
+            left: 50%;
+            transform: translate(-50%);
+            border: none;
+            box-shadow: 1px 1px inset rgb(255, 255, 255),
+            -1px -1px inset white;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="text"></div>
+    <button class="speak">Speak Now</button>
+</body>
+</html>
